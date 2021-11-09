@@ -1,0 +1,213 @@
+/* the styles for the elements */
+*{
+	margin: 0;
+	padding:0;
+}
+
+html{
+	background-color: white;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	width: 800px;
+	margin: 0 auto;
+	border-width: 3px;
+	border-color:#931420;
+	border-style: solid;
+	background-color:#fffded;
+}
+
+section{
+	width: 525px;
+	float: right;
+	padding: 20px;
+}
+
+aside{
+	width: 215px;
+	float: right;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+aside h2{
+	padding-bottom: .25em;
+	font-size: 130%;
+	color:#800000;
+	padding-top: .5em;
+}
+
+aside h3{
+	font-size:105%;
+	padding-bottom: .25em;
+}
+
+aside img{
+	padding-bottom: 1em;
+}
+
+
+/* the styles for the header */
+header img {
+	float: left;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+header{
+	border-bottom-width: 3px;
+	border-bottom-color:#931420;
+	border-bottom-style: solid;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+	background:linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%,#f6bb73 80%,#f6bb73 100%);
+}
+/* the styles for header */
+header h2 {
+	font-size: 170%;
+	color:#800000;
+}
+
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+}
+
+#nav_menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+#nav_menu ul li {
+	float: left;
+}
+#nav_menu ul li a {
+	display: block;
+	width: 160px;
+	text-align: center;
+	padding: 1em 0;
+	text-decoration: none;
+	background-color: #800000;
+	color: white;
+	font-weight: bold;
+}
+#nav_menu a.current{
+	color: yellow;
+}
+#nav_menu ul ul li a{
+	display: block;
+	width: 160px;
+	text-align: center;
+	padding: 1em 0;
+	text-decoration: none;
+	background-color: #800000;
+	color: white;
+	font-weight: bold;
+}
+
+#nav_menu ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+
+#nav_menu ul ul li {
+	float: none;
+}
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+
+#nav_menu > ul::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+h1{
+	font-size: 150%;
+	padding-top: .5em;
+	padding-bottom: .25em;
+	margin: 0;
+}
+
+section h2{
+	color: #800000;
+	padding: 3px 0 3px;
+
+}
+
+section ul{
+	list-style-type: circle;
+	padding: 0 0 .25em 1.25em;
+}
+
+article{
+	padding: .5em 0;
+	border-top: 2px;
+	border-bottom: 2px;
+	border-left: 0;
+	border-right: 0;
+	border-style: solid;
+	border-color: #800000;
+}
+
+article img{
+	float: right;
+	margin-top: 1em;
+	margin-left: 1em;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+
+}
+
+article h3{
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+.shadow{
+	text-shadow: 1px 1px 1px #800000;
+}
+/* the styles for the section */
+main {
+	clear: left;
+}
+
+main ul{
+	padding-bottom: .25em;
+	padding-left: 1.25em;
+}
+main p{
+	padding-bottom: .5em;
+}
+
+main blockquote{
+	padding-right: 2em;
+	padding-left: 2em;
+}
+
+main li{
+	padding-bottom: .35em;
+}
+a:hover, a:focus {
+	font-style: italic;
+}
+/* the styles for the footer */
+footer{
+	border-bottom-width: 3px;
+	border-bottom-color:#931420;
+	border-bottom-style: solid;
+	border-top-width: 3px;
+	border-top-color:#931420;
+	border-top-style: solid;
+	background-color:#931420;
+	color: white;
+	clear: both;
+}
+footer p {
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
